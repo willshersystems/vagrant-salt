@@ -1,0 +1,15 @@
+root_dir: .
+fileserver_backend:
+  - roots
+file_roots:
+  base:
+    - vagrant/srv/salt
+    - vagrant/srv/formulas/salt-formula
+    - vagrant/srv/formulas/epel-formula
+  develop:
+    - vagrant/srv/salt/develop
+pillar_roots:
+  base:
+    - vagrant/srv/pillar
+  develop:
+    - vagrant/srv/pillar/develop

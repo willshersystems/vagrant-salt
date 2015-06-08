@@ -1,0 +1,6 @@
+[submodule "vagrant/srv/formulas/salt-formula"]
+	path = vagrant/srv/formulas/salt-formula
+	url = https://github.com/willshersystems/salt-formula
+[submodule "vagrant/srv/formulas/epel-formula"]
+	path = vagrant/srv/formulas/epel-formula
+	url = https://github.com/willshersystems/epel-formula

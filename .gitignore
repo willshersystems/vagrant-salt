@@ -2,3 +2,4 @@
 vagrant/etc/salt/pki/
 srv/
 vagrant/var/
+var/
